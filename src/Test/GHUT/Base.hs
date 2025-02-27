@@ -1,16 +1,12 @@
--- @file GHUT.hs
--- @author Henry Wandover
--- @date Sept. 7, 2024
 
 {-# LANGUAGE FlexibleInstances #-}
 
-module GHUT (
+module Test.GHUT.Base (
  hwAssert,
  hwAssertTrue,
  hwAssertFalse,
  hwTestFunction
 ) where
-
 
 -- Hidden utility
 hwPrintSuccess :: String -> IO ()
